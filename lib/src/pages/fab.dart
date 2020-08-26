@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:todolist/bottom_sheet.dart';
+import 'package:todolist/src/components/bottom_sheet.dart';
 
-import 'util.dart';
+import '../utils/util.dart';
 
 FloatingActionButton customFab(context) {
   Modal modal = Modal();

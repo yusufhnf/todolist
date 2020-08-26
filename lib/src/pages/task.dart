@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:todolist/app_bars.dart';
-import 'package:todolist/bottom_navigation.dart';
-import 'package:todolist/fab.dart';
-import 'package:todolist/util.dart';
+import 'package:todolist/src/components/app_bars.dart';
+import 'package:todolist/src/components/bottom_navigation.dart';
+import 'package:todolist/src/pages/fab.dart';
+import 'package:todolist/src/utils/util.dart';
 
 class Task extends StatefulWidget {
   Task({Key key}) : super(key: key);

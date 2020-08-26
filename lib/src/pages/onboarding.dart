@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:todolist/empty.dart';
+import 'package:todolist/src/pages/login.dart';
 
-import 'util.dart';
+import '../utils/util.dart';
 
 class Onboarding extends StatefulWidget {
   Onboarding({Key key}) : super(key: key);
@@ -72,7 +72,7 @@ class _OnboardingState extends State<Onboarding> {
                     // );
                     Navigator.pushReplacement(
                       context,
-                      MaterialPageRoute(builder: (context) => Empty()),
+                      MaterialPageRoute(builder: (context) => Login()),
                     );
                   },
                   textColor: Colors.white,

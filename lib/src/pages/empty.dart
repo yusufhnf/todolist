@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:todolist/app_bars.dart';
-import 'package:todolist/bottom_navigation.dart';
-import 'package:todolist/fab.dart';
+import 'package:todolist/src/components/app_bars.dart';
+import 'package:todolist/src/components/bottom_navigation.dart';
+import 'package:todolist/src/pages/fab.dart';
 
-import 'util.dart';
+import '../utils/util.dart';
 
 class Empty extends StatefulWidget {
   Empty({Key key}) : super(key: key);
