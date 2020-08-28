@@ -3,7 +3,7 @@ import 'package:gradient_app_bar/gradient_app_bar.dart';
 
 import '../utils/util.dart';
 
-Widget fullAppbar(BuildContext context) {
+Widget fullAppbar(BuildContext context, String displayName, String displayTask) {
   return PreferredSize(
     preferredSize: Size.fromHeight(210.0),
     child: GradientAppBar(
@@ -25,11 +25,11 @@ Widget fullAppbar(BuildContext context) {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Text(
-              'Hello Bro!',
+              'Hello $displayName!',
               style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
             ),
             Text(
-              'Today you have 9 tasks',
+              'Today you have $displayTask tasks',
               style: TextStyle(fontSize: 10, fontWeight: FontWeight.w300),
             ),
           ],

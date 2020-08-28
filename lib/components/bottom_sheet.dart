@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:todolist/src/pages/home.dart';
+import 'package:todolist/pages/home.dart';
 
 import '../utils/util.dart';
 

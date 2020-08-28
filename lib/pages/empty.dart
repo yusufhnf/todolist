@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:todolist/src/components/app_bars.dart';
-import 'package:todolist/src/components/bottom_navigation.dart';
-import 'package:todolist/src/pages/fab.dart';
+import 'package:todolist/components/app_bars.dart';
+import 'package:todolist/components/bottom_navigation.dart';
+import 'package:todolist/pages/fab.dart';
 
 import '../utils/util.dart';
 

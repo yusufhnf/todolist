@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
-import 'package:todolist/src/components/app_bars.dart';
-import 'package:todolist/src/components/bottom_navigation.dart';
-import 'package:todolist/src/pages/fab.dart';
-import 'package:todolist/src/utils/util.dart';
+import 'package:todolist/components/app_bars.dart';
+import 'package:todolist/components/bottom_navigation.dart';
+import 'package:todolist/pages/fab.dart';
+import 'package:todolist/utils/util.dart';
 
 class Home extends StatefulWidget {
-  Home({Key key}) : super(key: key);
+  final String displayName;
+  Home({Key key, @required this.displayName}) : super(key: key);
 
   _HomeState createState() => _HomeState();
 }
@@ -17,7 +18,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: fullAppbar(context),
+      appBar: fullAppbar(context, widget.displayName, "9"),
       body: Container(
         width: MediaQuery.of(context).size.width,
         child: ListView(

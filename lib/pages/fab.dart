@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:todolist/src/components/bottom_sheet.dart';
+import 'package:todolist/components/bottom_sheet.dart';
 
 import '../utils/util.dart';
 
